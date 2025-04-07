@@ -51,20 +51,18 @@ Yulu-Demand-Hypothesis-Testing/
 ```
 ## Key Findings & Insights
 
-*(Summarize 3-5 major insights from your notebook, focusing on the hypothesis test results.)*
-* Example: Working days show a statistically significant [increase/decrease/no difference] in the average number of cycle rentals compared to non-working days (based on t-test results).
-* Example: There is a significant difference in average rental counts across different seasons (e.g., Fall highest, Spring lowest), as indicated by the ANOVA test.
-* Example: Weather conditions significantly impact rental demand, with clear weather having the highest average rentals (based on ANOVA results).
-* Example: There is a statistically significant association between the season and the prevailing weather conditions (based on Chi-square test).
+* **Working Day Impact:** There is a statistically significant difference in the number of bikes rented between working days and non-working days, indicating distinct usage patterns.
+* **Seasonal & Weather Influence:** Both season and weather conditions significantly affect the average number of rentals, with specific seasons (e.g., Fall) and weather types (e.g., Clear) showing higher demand (proven via ANOVA).
+* **Season-Weather Link:** A statistically significant association exists between the season and the type of weather experienced, confirming their interdependence.
+* **Predictive Factors:** Working day status, season, and weather are statistically significant factors influencing Yulu bike rental demand.
 
 ## Recommendations
 
-*(List 3-5 actionable recommendations based on your hypothesis test findings. Keep language clear.)*
-* Example: Optimize bike availability and potentially offer targeted promotions on working days vs. weekends/holidays based on the significant difference found in rental demand.
-* Example: Adjust fleet deployment and marketing campaigns seasonally, allocating more resources during peak seasons (e.g., Fall) and potentially offering incentives during lower-demand seasons (e.g., Spring).
-* Example: Develop weather-contingent operational plans, such as dynamic pricing or service alerts during adverse weather (Light/Heavy Precipitation), and ensure peak availability during clear weather.
-* Example: Integrate seasonal weather expectations into demand forecasting models for more accurate fleet management and resource allocation.
-
+1.  **Day-Type Strategy:** Optimize bike distribution and consider distinct promotional offers for working days versus weekends/holidays to align with differing demand levels.
+2.  **Seasonal Fleet Management:** Adjust fleet size and deployment seasonally, increasing availability during peak seasons (like Fall) and potentially offering incentives during lower-demand seasons (like Spring).
+3.  **Weather-Responsive Operations:** Implement weather-contingent plans, such as dynamic pricing adjustments during poor weather or ensuring maximum availability during favorable conditions; integrate weather forecasts into short-term planning.
+4.  **Integrated Demand Forecasting:** Incorporate the statistically significant factors (season, weather, working day) and their interactions into demand forecasting models for improved accuracy in inventory and resource management.
+   
 ## Tools Used
 
 * **Programming Language:** Python
