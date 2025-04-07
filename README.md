@@ -32,9 +32,6 @@ The dataset (`yulu_data.csv`) contains rental information along with associated 
 * **registered:** Count of registered users rentals
 * **count:** Total rentals (casual + registered) - **Dependent Variable**
 
-* **Source:** [Provide Link to Original Dataset Here if applicable]
-* *(Note: The dataset file might/might not be included in the `data/` directory of this repository.)*
-
 ## Repository Structure
 
 ```text
